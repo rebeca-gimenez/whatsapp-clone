@@ -1,0 +1,60 @@
+.contact-header-box {
+    /*Colors*/
+    /*background-color: var(--light-gray-background);
+*/
+    /*Display*/
+    display: flex;
+    justify-content: space-between;
+    
+    /*Others*/
+    height: 9.5%;
+    padding-right: 1.5em;
+}
+
+.contact-icons{
+    /*Display*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*Others*/
+    width: 12.5rem;
+    border: 1px solid red;
+}
+
+.video-dropdown{
+    /*Colors*/
+    background-color: inherit;
+    border: 1px solid var(--medium-gray-1);
+
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+    /*Others*/
+    align-items: center;
+    height: 2.3rem;
+    width: 4.2rem;
+    border-radius: 17px;
+}
+
+.video-dropdown:hover{
+    cursor: pointer;
+}
+
+.video-icon{
+    font-size: 1.3em;
+}
+.arrow-down-icon{
+    font-size: 0.6em;
+}
+.search-icon{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.vertical-dots-icon{
+    font-size: 1.4em;
+    cursor: pointer;
+}

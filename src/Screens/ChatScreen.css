@@ -1,0 +1,27 @@
+/**/
+.screen{
+    display: flex;
+    justify-content: left;
+    height: 100vh;
+}
+
+.messages-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1000px;
+    border: 1px solid blue;
+}
+
+/*Icons*/
+.icon-1{
+    color: var(--dark-gray-1);
+}
+
+.icon-2{
+    color: var(--dark-gray-2);
+}
+
+.green {
+    background-color: var(--light-green);
+}

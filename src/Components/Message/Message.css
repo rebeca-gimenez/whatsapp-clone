@@ -1,0 +1,54 @@
+/* MESSAGE CSS */
+
+
+.message{
+    align-items: stretch;
+    border-radius: 6px;
+    box-shadow: 0px 2.5px 0.7px -1px #D5D4D0;
+    display: inline-flex;
+    flex-direction: row;
+    height: 2.2em;
+    margin: 2px;
+    max-width: 545px;
+    min-width: 70px;
+    padding: 7px 7px 5px 9px;
+}
+
+.sender-me{
+    align-self: flex-end;
+}
+
+.sender-contact{
+    background-color: var(--white);
+}
+.text-message{
+    color: var(--dark-font-color);
+    font-size: 1em;
+    padding-right: 6px;
+    vertical-align: bottom;
+}
+.text-data{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    font-size: .7em;
+}
+.text-hour{
+    color: #667781;
+    padding-right: 3px;
+}
+
+.icon-viewed {
+    color: var(--icon-viewed);
+}
+
+.message-icon {
+    position: relative;
+    color: var(--icon-gray);
+    font-size: 2em;
+    bottom: -0.4em;
+}
+
+.text-icon.sender-contact{
+    display: none;
+}
