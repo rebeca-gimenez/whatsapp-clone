@@ -1,6 +1,6 @@
 import React from 'react'
 import Message from '../Message/Message'
-import './MessagesList.css'
+import './ChatMessages.css'
 
 const MessagesList = ({messages}) => {
     let messagesListJSX = messages.map(
@@ -16,7 +16,7 @@ const MessagesList = ({messages}) => {
         }
     )
     return (
-        <div className='messages-list'>
+        <div className='chat-messages-box'>
             {messagesListJSX}
         </div>
     )

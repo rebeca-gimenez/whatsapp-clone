@@ -46,6 +46,7 @@ const ContactsContextProvider = ({children}) => {
         setContactsState(updated_contacts)
     }
 
+
     return (
         <ContactsContext.Provider value={
             {

@@ -8,34 +8,39 @@ import ContactsList from '../ContactsList/ContactsList';
 
 const ChatNav = () => {
     return (
-        <div className='chat-nav'>
-            <div className='chat-nav-header'>
-                <div className='chat-header'>
+        <nav className='chat-nav'>
+            <div className='chat-search'>
+                <div className='chat-options'>
                     <h1>Chats</h1>
                     <span className='chat-icons'>
-                        <BiCommentAdd className='new-chat-icon icon-1'/>
-                        <BsThreeDotsVertical className='vertical-dots-icon icon-1'/>
+                        <button className='button-icon'>
+                            <BiCommentAdd className='light-gray-font'/>
+                        </button>
+                        <button className='button-icon'>
+                            <BsThreeDotsVertical className='light-gray-font'/>
+                        </button>
+                        
                     </span>
                 </div>
-                <div className='chat-search'>
-                    <div className='search-bar'>
+                <form className='chat-search-bar'>
+                    <button>
                         <RxMagnifyingGlass />
-                        <span>Search</span>
-                    </div>
-                    <div className='search-categories'>
-                        <span className='pill' id='green-pill'>All</span>
-                        <span className='pill'>Unread</span>
-                        <span className='pill'>Favorites</span>
-                        <span className='pill'>Groups</span>
-                    </div>
+                    </button>
+                    <input type="text" />
+                </form>
+                <div className='chat-categories'>
+                    <span className='pill' id='green-pill'>All</span>
+                    <span className='pill'>Unread</span>
+                    <span className='pill'>Favorites</span>
+                    <span className='pill'>Groups</span>
                 </div>
             </div>
             <ContactsList/>
-            <div>
+            <div className='download-banner'>
                 <FaWhatsapp />
                 <span>Get WhatsApp for Windows</span>
             </div>
-    </div>
+    </nav>
     )
 }
 

@@ -1,0 +1,32 @@
+
+.chat-header-box {
+    /*Display*/
+    display: flex;
+
+    /*background-color: var(--light-gray-background);*/   
+    
+    /*Others*/
+    height: 66px;
+    min-height: 66px;
+    /*padding-right: 1.5em;*/
+    border: 1px solid aqua;
+}
+
+/* MESSAGESLIST CSS */
+.chat-messages-box{
+    /*Display*/
+    display: inline-flex;
+    flex-direction: column;
+
+    /*Others*/
+    /*background-image: url('../../assets/background.png');*/
+    height: 100%;
+    /*padding: 0px 50px;*/
+}
+.chat-message-input-box{
+    display: flex;
+
+    background-color: var(--light-gray-background);
+    font-size: 1em;
+    min-height: 66px;
+}

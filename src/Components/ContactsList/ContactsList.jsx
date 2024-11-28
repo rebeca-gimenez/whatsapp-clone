@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Contact from '../Contact/Contact'
-import "./ContactsList.css"
+//import "./ContactsList.css"
 import contacts from "../../data/contactsData"
 
 const ContactsList = () => {

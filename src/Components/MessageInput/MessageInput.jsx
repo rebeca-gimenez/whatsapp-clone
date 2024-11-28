@@ -35,37 +35,34 @@ const MessageInput = ({contactID}) => {
     }
 
     return (
-        <div className='message-input-box'>
+        <div className='chat-message-input-box'>
 
-            <div className='left-icons'>
+            <div className='special-message-icons'>
                 <span className='button-icon'>
-                    <BiHappy className='icon-1' />
+                    <BiHappy className='light-gray-font' />
                 </span>
                 <span className='button-icon'>
-                    <AiOutlinePlus className='icon-2'/>
+                    <AiOutlinePlus className='dark-gray-font'/>
                 </span>
             </div>
 
-            <form onSubmit={handleSenderSendNewMessage} className='message-form'>
-                <input type="message" id='message' name='message' onChange={handleInputTextChange}/>
-                {isInputEmpty &&
+            <form onSubmit={handleSenderSendNewMessage} className='new-message-form'>
+                <input type="text" id='message' name='message' onChange={handleInputTextChange}/>
+                { isInputEmpty &&
                     <label htmlFor="message" className='message-input-label'>
                         Type a message
                     </label>
                 }
-                {!isInputEmpty &&
-                    <button type="submit" className='send-icon button-icon icon-1'>
-                        <IoPaperPlaneSharp />
-                    </button>
+
+                { isInputEmpty
+                    ? (<button className='button-icon'>
+                        <BiSolidMicrophone className='light-gray-font' />
+                    </button>)
+                    : (<button type="submit" className='button-icon'>
+                        <IoPaperPlaneSharp className='send-icon light-gray-font'/>
+                    </button>)
                 }
             </form>
-
-            {isInputEmpty && 
-                <span className='button-icon'>
-                    <BiSolidMicrophone className='microphone-icon icon-1' />
-                </span>
-            }
-
         </div>
     )
 }

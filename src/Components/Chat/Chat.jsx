@@ -1,9 +1,10 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import {ContactsContext} from '../../Context/ContactsContext'
-import MessagesList from '../MessagesList/MessagesList'
+import ChatMessages from '../ChatMessages/ChatMessages'
 import MessageInput from '../MessageInput/MessageInput'
-import ContactHeader from '../ContactHeader/ContactHeader'
+import ChatHeader from '../ChatHeader/ChatHeader'
+import "./Chat.css"
 
 const Chat = () => {
     const { contact_id } = useParams()
@@ -14,22 +15,22 @@ const Chat = () => {
     
     console.log(current_contact)
     return (
-    <div className='messages-screen'>
+    <section className='chat'>
         {!current_contact
-            ? (<ContactHeader 
+            ? (<ChatHeader 
                     contactName={"No hay contacto"}/>
                 )
             : (<>
-                <ContactHeader 
+                <ChatHeader 
                     contactAvatar={current_contact.avatar}
                     contactName={current_contact.name}
                     contactLastHour={current_contact.lastHour}/>
-                <MessagesList 
+                <ChatMessages 
                     messages={current_contact.messagesList}/>
                 <MessageInput contactID={contact_id} />
             </>)     
         }
-    </div>
+    </section>
     )
 }
 

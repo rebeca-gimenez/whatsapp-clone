@@ -1,6 +1,9 @@
-.contact-list{
+.contacts-list{
     display: flex;
     flex-direction: column;
+
+    border: 1px solid green;
+    height: 100%;
 }
 
 ul {
@@ -22,6 +25,6 @@ ul {
     /*Other*/
     color: var(--dark-font-color);
     border: 1px solid green;
-    width: 100%;
+    width: 50%;
     padding: 3px 27px 5px 20px;
 }

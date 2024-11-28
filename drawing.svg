@@ -25,8 +25,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1.0129245"
-     inkscape:cx="316.90417"
-     inkscape:cy="378.60669"
+     inkscape:cx="626.40404"
+     inkscape:cy="378.6067"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -44,7 +44,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffd5d5;stroke:none;stroke-width:1.95143;stroke-dasharray:11.7085, 11.7085"
+       style="fill:#fff6d5;stroke:none;stroke-width:1.95143;stroke-dasharray:11.7085, 11.7085"
        id="rect2252"
        width="216.95836"
        height="95.25"
@@ -102,80 +102,47 @@
     <text
        xml:space="preserve"
        style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
-       x="105.26846"
-       y="69.634094"
+       x="161.99278"
+       y="90.800758"
        id="text8577"><tspan
          sodipodi:role="line"
          id="tspan8575"
          style="fill:#000000;stroke-width:0.877174"
-         x="105.26846"
-         y="69.634094">messages-list</tspan></text>
+         x="161.99278"
+         y="90.800758">messages-list</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
-       x="102.60589"
-       y="164.88409"
+       x="195.22679"
+       y="156.94659"
        id="text9307"><tspan
          sodipodi:role="line"
          id="tspan9305"
          style="fill:#000000;stroke-width:0.877174"
-         x="102.60589"
-         y="164.88409">message-input</tspan></text>
+         x="195.22679"
+         y="156.94659">message-input</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
-       x="105.4986"
-       y="48.467426"
-       id="text10763"><tspan
-         sodipodi:role="line"
-         id="tspan10761"
-         style="fill:#000000;stroke-width:0.877174"
-         x="105.4986"
-         y="48.467426">contact-header</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
-       x="39.037548"
-       y="40.391846"
-       id="text12945"><tspan
-         sodipodi:role="line"
-         id="tspan12943"
-         style="fill:#000000;stroke-width:0.877174"
-         x="39.037548"
-         y="40.391846">contact-nav</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
-       x="106.15412"
-       y="40.529926"
-       id="text13675"><tspan
-         sodipodi:role="line"
-         id="tspan13673"
-         style="fill:#000000;stroke-width:0.877174"
-         x="106.15412"
-         y="40.529926">messages-section</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
-       x="31.69142"
-       y="52.816242"
+       style="font-size:7.27338px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.744519;stroke-dasharray:4.4671, 4.4671"
+       x="34.81134"
+       y="55.477264"
        id="text18035"><tspan
          sodipodi:role="line"
          id="tspan18033"
-         style="fill:#000000;stroke-width:0.877174"
-         x="31.69142"
-         y="52.816242">contact-search</tspan></text>
+         style="fill:#000000;stroke-width:0.744519"
+         x="34.81134"
+         y="55.477264">contact-search</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
-       x="2.0963049"
-       y="40.529926"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="2.4780271"
+       y="39.623573"
        id="text18039"><tspan
          sodipodi:role="line"
          id="tspan18037"
-         style="fill:#000000;stroke-width:0.877174"
-         x="2.0963049"
-         y="40.529926">sidebar</tspan></text>
+         style="fill:#000000;stroke-width:0.558389"
+         x="2.4780271"
+         y="39.623573">sidebar</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
@@ -198,5 +165,180 @@
          style="fill:#000000;stroke-width:0.877174"
          x="28.81127"
          y="163.94124">download-banner</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="32.058102"
+       y="38.300655"
+       id="text316"><tspan
+         sodipodi:role="line"
+         id="tspan314"
+         style="fill:#000000;stroke-width:0.558389"
+         x="32.058102"
+         y="38.300655">chat-nav</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="102.97441"
+       y="47.561073"
+       id="text422"><tspan
+         sodipodi:role="line"
+         id="tspan420"
+         style="fill:#000000;stroke-width:0.558389"
+         x="102.97441"
+         y="47.561073">chat-header-box</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.27338px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.744519;stroke-dasharray:4.4671, 4.4671"
+       x="100.25755"
+       y="39.602264"
+       id="text426"><tspan
+         sodipodi:role="line"
+         id="tspan424"
+         style="fill:#000000;stroke-width:0.744519"
+         x="100.25755"
+         y="39.602264" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="102.97441"
+       y="38.300655"
+       id="text430"><tspan
+         sodipodi:role="line"
+         id="tspan428"
+         style="fill:#000000;stroke-width:0.558389"
+         x="102.97441"
+         y="38.300655">chat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="103.10406"
+       y="68.727737"
+       id="text434"><tspan
+         sodipodi:role="line"
+         id="tspan432"
+         style="fill:#000000;stroke-width:0.558389"
+         x="103.10406"
+         y="68.727737">chat-messages-box</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="100.8045"
+       y="162.89366"
+       id="text438"><tspan
+         sodipodi:role="line"
+         id="tspan436"
+         style="fill:#000000;stroke-width:0.558389"
+         x="100.8045"
+         y="162.89366">chat-message-input-box</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="18.935474"
+       y="36.977741"
+       id="text442"><tspan
+         sodipodi:role="line"
+         id="tspan440"
+         style="fill:#0000ff;stroke-width:0.558389"
+         x="18.935474"
+         y="36.977741">aside</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="57.414589"
+       y="37.28849"
+       id="text552"><tspan
+         sodipodi:role="line"
+         id="tspan550"
+         style="fill:#0000ff;stroke-width:0.558389"
+         x="57.414589"
+         y="37.28849">nav</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="86.952911"
+       y="19.779821"
+       id="text556"><tspan
+         sodipodi:role="line"
+         id="tspan554"
+         style="fill:#0000ff;stroke-width:0.558389"
+         x="86.952911"
+         y="19.779821">main</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="118.19772"
+       y="39.623573"
+       id="text560"><tspan
+         sodipodi:role="line"
+         id="tspan558"
+         style="fill:#0000ff;stroke-width:0.558389"
+         x="118.19772"
+         y="39.623573">section</tspan></text>
+    <rect
+       style="fill:#f9f9f9;stroke:none;stroke-width:0.551761;stroke-dasharray:3.31055, 3.31055"
+       id="rect566"
+       width="156.10417"
+       height="10.583338"
+       x="105.83333"
+       y="50.270832" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="122.65304"
+       y="55.498573"
+       id="text564"><tspan
+         sodipodi:role="line"
+         id="tspan562"
+         style="fill:#000000;stroke-width:0.558389"
+         x="122.65304"
+         y="55.498573">contact-box</tspan></text>
+    <rect
+       style="fill:#f9f9f9;stroke:none;stroke-width:0.329181;stroke-dasharray:1.97507, 1.97507"
+       id="rect568"
+       width="55.562504"
+       height="10.583338"
+       x="34.395828"
+       y="87.3125" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="36.828579"
+       y="92.540237"
+       id="text572"><tspan
+         sodipodi:role="line"
+         id="tspan570"
+         style="fill:#000000;stroke-width:0.558389"
+         x="36.828579"
+         y="92.540237">contact-box</tspan></text>
+    <rect
+       style="fill:#ffd5d5;stroke:none;stroke-width:0.313114;stroke-dasharray:1.87867, 1.87867"
+       id="rect574"
+       width="50.270828"
+       height="10.583338"
+       x="264.58334"
+       y="50.270828" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="102.91673"
+       y="173.47699"
+       id="text640"><tspan
+         sodipodi:role="line"
+         id="tspan638"
+         style="fill:#000000;stroke-width:0.558389"
+         x="102.91673"
+         y="173.47699">special-message-icons</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.45503px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.558389;stroke-dasharray:3.35032, 3.35032"
+       x="193.43619"
+       y="170.83116"
+       id="text746"><tspan
+         sodipodi:role="line"
+         id="tspan744"
+         style="fill:#000000;stroke-width:0.558389"
+         x="193.43619"
+         y="170.83116">new-message-form</tspan></text>
   </g>
 </svg>

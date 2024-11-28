@@ -1,7 +1,8 @@
+/*
 .contact-avatar{
-    /*Colors*/
+    /*Colors
     background-color: white;
-    /*Other*/
+    /*Other
     height: 2.8em;
     width: 2.8em;
     border-radius: 50%;
@@ -12,7 +13,7 @@
 }
 
 .contact-info{
-    /*Display*/
+    /*Display
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -29,3 +30,4 @@
     color: var(--gray-font-color);
     font-size: 0.8em;
 }
+*/

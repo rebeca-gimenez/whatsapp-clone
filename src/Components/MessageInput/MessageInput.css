@@ -1,57 +1,30 @@
-.message-input-box{
-    /*Colors*/
-    background-color: var(--light-gray-background);
-
-    /*Display*/
+/*Messages to the left of the form*/
+.special-message-icons {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
 
-    /*Other*/
-    font-size: 1em;
-    padding: 0.6em 0em 0.7em 1.7em;
+    min-width: 110px;
+    padding-left: 25px;
 }
+
 
 /*Form*/
-
-.message-form{
-    /*Display*/
+.new-message-form {
     display: flex;
-    justify-content: left;
+    gap: 15px;
 
-    position: relative;
-
-    /*Other*/
-    height: 100%;
-    padding-left: 1.2em;
-    padding-right: 1em;
-    width: 52.7em;
+    padding: 9px 25px 10px 15px;
+    width: 100%;
 }
 
-.message-input-label{
-    /*Color*/
-    color: var(--dark-gray-1);
-
-    /*Display*/
-    left: 2.2em;
-    position: absolute;
-    top: 30%;
-
-    /*Other*/
-    cursor: text;
-    font-size: inherit;
-}
-
-input{
-    /*Colors*/
+.new-message-form > input{
     background-color: var(--white);
     color: var(--dark-gray-2);
 
-    /*Other*/
+    border-radius: 8px;
     border: none;
-    border-radius: 9px;
     font-size: inherit;
-    height: 2.7em;
-    padding-left: 0.9em;
+    padding: 0 16px;
     width: 100%;
 }
 
@@ -63,45 +36,15 @@ input:focus + .message-input-label{
     display: none;
 }
 
+.message-input-label{
+    color: var(--dark-gray-1);
 
+    position: absolute;
+    margin: 14px 15px 0;
 
-
-/* Icons */
-
-.button-icon{
-    background: none;
-    border: none;
-    font-size: 2em;
-
-    display: flex;
-    align-items: center;
-}
-
-.button-icon:hover{
-    cursor: pointer;
-}
-
-.icon-1, .icon-2{
-    font-size: inherit;
+    cursor: text;
 }
 
 .send-icon{
-    /*Display*/
-    position: absolute;
-    right: -29px;
-
-    /*Other*/
-    font-size: 2em;
-    padding-left: 0.5em;
-    transform: rotate(43deg);
-}
-
-.left-icons{
-    /*Display*/
-    display: flex;
-    gap: 1em;
-}
-
-.microphone-icon{
-    font-size: 0.9em;
+    transform: rotate(43deg) scale(.9) translatex(-2px);
 }
