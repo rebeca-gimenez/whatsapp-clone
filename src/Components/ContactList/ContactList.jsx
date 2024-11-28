@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Contact from '../Contact/Contact'
-//import "./ContactsList.css"
+import "./ContactList.css"
 import contacts from "../../data/contactsData"
 
-const ContactsList = () => {
+const ContactList = () => {
     return (
         <>
-            <ul className='contacts-list'>
+            <ul className='contact-list'>
             { contacts.map( ( contact )=>{
                 return (
                     <li key={contact.id} className="contact-item'">
@@ -28,4 +28,4 @@ const ContactsList = () => {
     )
 }
 
-export default ContactsList
+export default ContactList

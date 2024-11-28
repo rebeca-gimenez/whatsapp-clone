@@ -1,29 +1,20 @@
 .contact-icons{
-    /*Display*/
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    /*Others*/
-    width: 12.5rem;
-    border: 1px solid red;
+    padding: 0px 20px 0px 38px;
+    min-width: 220px;
 }
 
 .video-dropdown{
-    /*Colors*/
-    background-color: inherit;
-    border: 1px solid var(--medium-gray-1);
-
-    /*Display*/
     display: flex;
     justify-content: center;
-    gap: 5px;
-    
-    /*Others*/
+    gap: 9px;
     align-items: center;
-    height: 2.3rem;
-    width: 4.2rem;
-    border-radius: 17px;
+
+    background: none;
+    border: none;
 }
 
 .video-dropdown:hover{
@@ -31,20 +22,8 @@
 }
 
 .video-icon{
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 .arrow-down-icon{
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
-
-/*
-.search-icon{
-    font-size: 1.2em;
-    cursor: pointer;
-}
-
-.vertical-dots-icon{
-    font-size: 1.4em;
-    cursor: pointer;
-}
-*/

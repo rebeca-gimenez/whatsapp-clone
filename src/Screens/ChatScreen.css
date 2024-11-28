@@ -63,3 +63,9 @@
     min-width: 88px;
     padding-right: 5px;
 }
+
+.green-icon {
+    background-color: var(--whatsapp-green);
+    color: var(--white);
+    
+}

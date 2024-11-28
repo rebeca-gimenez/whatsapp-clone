@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaCircleUser } from "react-icons/fa6"
-//import "./Contact.css"
+import "./Contact.css"
 
 const Contact = ({contactAvatar, contactName, lastHour, bottomText}) => {
   return (

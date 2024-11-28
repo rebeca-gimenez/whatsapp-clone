@@ -5,13 +5,15 @@
     min-height: 165px;
 }
 
+/* Chat Options */
+
 .chat-options{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    height: 100%;
-    padding: 0px 15px;
+    min-height: 65px;
+    padding: 8px 15px 0px;
 }
 
 .chat-options > h1 {
@@ -23,18 +25,32 @@
     font-size: 1em;
 }
 
-.chat-search-bar{
+/* Search bar */
 
-    min-height: 46px;
-    border: 1px solid red;
+.chat-search > .new-message-form {
+    padding: 10px 12px 4px;
+}
+
+.search-button {
+    /*background-color: var(--light-gray-background);
+    border: none;*/
+    background: none;
+    cursor: pointer;
+    padding: 0px 0px 0px 15px;
+}
+
+#search {
+    min-height: 40px;
+    border: 1px solid blue;
+    background: none;
 }
 
 .chat-categories{
     display: flex;
     gap: 10px;
 
-    min-height: 46px;
-    padding: 0 0px 7px 15px;
+    min-height: 45px;
+    padding: 0 0px 5px 15px;
 }
 
 .pill{
@@ -54,25 +70,28 @@
     color: var(--dark-green-font-color);
 }
 
-/*
-
-
-/*Search
-
-
-.search-bar{
-    border: 1px solid red;
-    height: 38px;
-
-}
-
-
-.users-list{
-    border: 1px solid pink;
-}
-    */
-
 .download-banner {
-    min-height: 70px;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+    min-height: 69px;
+    padding: 5px 20px 0px 74px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.banner-content > .green-icon{
+    font-size: 2.7em;
+    padding: 4px;
+}
+
+.banner-content > span {
+    color: var(--dark-green-font-color);
+    font-size: 1.1em;
 }
