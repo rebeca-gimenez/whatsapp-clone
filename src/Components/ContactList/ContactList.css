@@ -6,19 +6,31 @@ ul.contact-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: var(--light-gray-1) var(--white);
 }
 
 .contact-item {
     font-size: 1.2em;
-    min-height: 78px;
+    min-height: 80px;
     padding: 3px 0px;
 }
 
 .contact-item > a {
     text-decoration: none;
+    color: var(--dark-font-color);
+}
+
+.contact-item:hover {
+    background-color: var(--light-gray-2);
 }
 
 .contact-item > a > .contact-box {
-    padding: .4em 1.3em 0 .8em;
+    padding: .4em .8em 0 .8em;
     gap: .7em;
+}
+
+.contact-item > a > .contact-box > .contact-info {
+    border-bottom: 1px solid var(--light-gray-1);
 }

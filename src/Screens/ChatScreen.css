@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: baseline;
 
+    /*background-color: var(--white);*/
     min-width: 460px;
 }
 
