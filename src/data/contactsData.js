@@ -2,8 +2,8 @@ const contacts = [
     {
       id: 1,
       name: 'Camila Herrera',
-      lastHour: '23:10',
-      lastMessage: 'Hola que tal?',
+      lastHour: '23:10 PM',
+      lastMessage: 'Una mujer internacional',
       lastSender: 'ME',
       lastStatus: 'viewed',
       status: 'last seen today at 7:39 PM',
@@ -90,7 +90,7 @@ const contacts = [
     {
       id: 2,
       name: 'Melanie',
-      lastHour: '23:10',
+      lastHour: '23:10 PM',
       lastMessage: 'Hola que tal?',
       lastSender: 'ME',
       lastStatus: 'viewed',
@@ -107,7 +107,7 @@ const contacts = [
     {
       id: 3,
       name: 'Camila',
-      lastHour: '23:10',
+      lastHour: '23:10 PM',
       lastMessage: 'Hola que tal?',
       lastSender: 'ME',
       lastStatus: 'viewed',

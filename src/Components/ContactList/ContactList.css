@@ -1,5 +1,24 @@
-.contact-list{
+ul.contact-list {
     display: flex;
     flex-direction: column;
+
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+.contact-item {
+    font-size: 1.2em;
+    min-height: 78px;
+    padding: 3px 0px;
+}
+
+.contact-item > a {
+    text-decoration: none;
+}
+
+.contact-item > a > .contact-box {
+    padding: .4em 1.3em 0 .8em;
+    gap: .7em;
+}

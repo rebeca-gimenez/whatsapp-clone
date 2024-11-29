@@ -1,4 +1,9 @@
 .contact-box {
+    display: flex;
+    gap: 1em;
+
+    height: 100%;
+    padding: .5em 0 0 1.1em;
     width: 100%;
 }
 
@@ -6,33 +11,36 @@
 .contact-avatar{
     background-color: var(--white);
     border-radius: 50%;
-    height: 2.8em;
-    width: 2.8em;
+    height: var(--small-user-avatar);
+    aspect-ratio: 1;
 }
 
 .contact-avatar-icon{
-    font-size: 2.8em;
+    font-size: var(--small-user-avatar);
 }
 
 .contact-info{
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: .3em;
+
+    padding-top: .2em;
+    min-height: 100%;
     width: 100%;
 }
 
 .contact-info-top{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .contact-info-text{
     color: var(--gray-font-color);
-    font-size: 0.8em;
+    font-size: var(--small-font-size);
 }
 
 .contact-info-hour{
     color: var(--gray-font-color);
-    font-size: 0.8em;
+    font-size: var(--smallest-font-size);
+    padding-top: .4em;
 }

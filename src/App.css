@@ -16,6 +16,11 @@ body {
     --light-green: #D9FDD3;
     --dark-green-font-color: #008069;
     --whatsapp-green: #25D366;
+    --small-user-avatar: 2.8em;
+    --medium-user-avatar: 4em;
+    --smallest-font-size: 0.7em;
+    --small-font-size: 0.8em;
+    --medium-font-size: 1.1em;
     background-image: url("./assets/whatsapp-screenshot-2.png");
     background-size: 1535px;
 }
