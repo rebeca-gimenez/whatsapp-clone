@@ -1,6 +1,5 @@
 import React from 'react'
 import Message from '../Message/Message'
-import './ChatMessages.css'
 
 const MessagesList = ({messages}) => {
     let messagesListJSX = messages.map(

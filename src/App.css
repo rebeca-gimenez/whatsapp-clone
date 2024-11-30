@@ -46,11 +46,3 @@ body {
     background-color: #F0F2F5;
     width: 860px;
 }
-
-.light-icon-1{
-    color: var(--light-gray-1);
-}
-
-.medium-icon-1{
-    color: var(--medium-gray-1);
-}

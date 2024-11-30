@@ -24,10 +24,10 @@ const ChatNav = () => {
                     <h1>Chats</h1>
                     <span className='chat-icons'>
                         <button className='button-icon'>
-                            <BiCommentAdd className='light-gray-font'/>
+                            <BiCommentAdd className='medium-gray-font'/>
                         </button>
                         <button className='button-icon'>
-                            <BsThreeDotsVertical className='light-gray-font'/>
+                            <BsThreeDotsVertical className='medium-gray-font'/>
                         </button>
                         
                     </span>
@@ -57,7 +57,7 @@ const ChatNav = () => {
                     <span>Get WhatsApp for Windows</span>
                 </div>
                 <button className='button-icon'>
-                    <GoX className='light-gray-font'/>
+                    <GoX className='medium-gray-font'/>
                 </button>
             </div>
     </nav>

@@ -19,15 +19,15 @@ const ChatHeader = ({contactAvatar, contactName, contactLastHour}) => {
       />
       <div className='contact-icons'>
         <button className='video-dropdown'>
-          <FaVideo className='video-icon medium-icon-1'/>
-          <IoIosArrowDown className='arrow-down-icon medium-icon-1'/>
+          <FaVideo className='video-icon light-gray-font'/>
+          <IoIosArrowDown className='arrow-down-icon light-gray-font'/>
         </button>
         <div className='chat-icons'>
           <button className='button-icon'>
-            <SlMagnifier className='light-gray-font'/>
+            <SlMagnifier className='medium-gray-font'/>
           </button>
           <button className='button-icon'>
-            <BsThreeDotsVertical className='light-gray-font'/>
+            <BsThreeDotsVertical className='medium-gray-font'/>
           </button>
         </div>
       </div>

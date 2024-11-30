@@ -29,8 +29,17 @@
 }
 
 
-/* Icons */
+/* Font colors */
+.lightest-gray-font{
+    color: var(--light-gray-1);
+}
+
+
 .light-gray-font{
+    color: var(--medium-gray-1);
+}
+
+.medium-gray-font{
     color: var(--dark-gray-1);
 }
 
@@ -43,6 +52,7 @@
 }
 
 
+/* Icons */
 .button-icon{
     display: flex;
     align-items: center;
