@@ -55,7 +55,7 @@ const MessageInput = ({contactID}) => {
                 }
 
                 { isInputEmpty
-                    ? (<button className='button-icon'>
+                    ? (<button type="button" className='button-icon'>
                         <BiSolidMicrophone className='medium-gray-font' />
                     </button>)
                     : (<button type="submit" className='button-icon'>

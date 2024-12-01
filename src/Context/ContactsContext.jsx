@@ -1,7 +1,9 @@
-import { createContext, useState } from "react";
+import { createContext, useState } from "react"
 import contacts from "../data/contactsData"
-import getNewMessageID from "../helpers/getNewMessageid";
-import { getFormattedHour } from '../helpers/getFormattedHour'
+import getNewMessageID from "../helpers/getNewMessageid"
+import getFormattedHour from '../helpers/getFormattedHour'
+import getCurrentDateString from '../helpers/getCurrentDateString'
+import evaluateIfFirstMessage from '../helpers/evaluateIfFirstMessage'
 
 const ContactsContext = createContext();
 
@@ -32,13 +34,16 @@ const ContactsContextProvider = ({children}) => {
         const new_id = getNewMessageID(current_messages)
 
         const new_message = {
-            sender: 'ME',
-            hour: getFormattedHour(),
+            isFirstMessage: evaluateIfFirstMessage(current_messages),
+            isSenderMe: true,
+            hourString: getFormattedHour(),
+            dateString: getCurrentDateString(), 
             id: new_id,
             text: text,
             status: 'received'
         }
 
+        console.log(new_message)
         //Add new message || Agregar nuevo mensaje
         updated_contacts[contact_index].messagesList.push(new_message)
         

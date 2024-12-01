@@ -11,17 +11,17 @@ import { FaCircleUser } from "react-icons/fa6"
 const Sidebar = () => {
   return (
     <aside className='sidebar'>
-      <div className='space-vertical-icons'>
-        <button className='button-icon additional-padding'>
+      <div className='space-vertical-icons top'>
+        <button className='button-icon current-screen'>
           <PiChatTextFill className='medium-gray-font'/>
         </button>
-        <button className='button-icon additional-padding'>
+        <button className='button-icon'>
           <GrEmptyCircle className='medium-gray-font'/>
         </button>
-        <button className='button-icon additional-padding'>
+        <button className='button-icon'>
           <BsChatDots className='medium-gray-font'/>
         </button>
-        <button className='button-icon additional-padding'>
+        <button className='button-icon'>
           <FaUsers className='medium-gray-font'/>
         </button>
       </div>

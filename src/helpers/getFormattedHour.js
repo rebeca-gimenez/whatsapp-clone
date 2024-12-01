@@ -1,4 +1,4 @@
-export const getFormattedHour =() => {
+const getFormattedHour =() => {
     const currentDate = new Date()
 
     let hours = currentDate.getHours()
@@ -18,3 +18,5 @@ export const getFormattedHour =() => {
     console.log(typeof(minutes))
     return `${hours}:${minutes} ${am_pm}`
 }
+
+export default getFormattedHour

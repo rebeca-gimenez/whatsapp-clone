@@ -16,6 +16,9 @@
 }
 
 .contact-avatar-icon{
+    background-color: var(--white);
+    border-radius: 50%;
+    cursor: pointer;
     font-size: var(--small-user-avatar);
 }
 

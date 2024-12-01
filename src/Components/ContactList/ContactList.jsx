@@ -9,14 +9,16 @@ const ContactList = () => {
         <>
             <ul className='contact-list'>
             { contacts.map( ( contact )=>{
+                const messages = contact.messagesList
+                const lastMessage  = messages[messages.length-1]
                 return (
                     <li key={contact.id} className='contact-item'>
                         <Link to={`/contact/${contact.id}`}>
                         <Contact
                             contactAvatar={contact.avatar}
                             contactName={contact.name}
-                            lastHour={contact.lastHour}
-                            bottomText={contact.lastMessage} 
+                            lastHour={lastMessage.hourString}
+                            bottomText={lastMessage.text} 
                             key={contact.id}
                         />
                         </Link>

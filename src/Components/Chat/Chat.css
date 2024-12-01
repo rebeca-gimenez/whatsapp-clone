@@ -2,9 +2,7 @@
 .chat-header-box {
     display: flex;
 
-    /*background-color: var(--light-gray-background);*/   
-    
-    height: 66px;
+    background-color: var(--light-gray-background);   
     min-height: 66px;
 }
 
@@ -17,8 +15,8 @@
     height: 100%;
     overflow-y: scroll;
     scrollbar-width: thin;
-    scrollbar-color: var(--light-gray-1) #EFEAE2;
-    /*padding: 0px 50px;*/
+    scrollbar-color: #C1BFBA #EFEAE2;
+    padding: 0px 50px;
 }
 .chat-message-input-box{
     display: flex;

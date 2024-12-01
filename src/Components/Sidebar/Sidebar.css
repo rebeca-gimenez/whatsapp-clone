@@ -4,17 +4,24 @@
     justify-content: space-between;
     align-items: center;
 
+    background-color: var(--light-gray-background);
     padding: 10px 0px;
 }
 
 .space-vertical-icons{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 14px;
     align-items: center;
+
+    font-size: .8em;
 }
 
-.additional-padding{
-    padding: 4px;
+.space-vertical-icons > .button-icon {
     border-radius: 50%;
+    padding: 7px;
+}
+
+.current-screen{
+    background-color: #D9DBDF;
 }
