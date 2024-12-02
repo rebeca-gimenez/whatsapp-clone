@@ -7,6 +7,7 @@ import "./ChatNav.css"
 import ContactList from '../ContactList/ContactList';
 import { GoX } from "react-icons/go";
 import Sidebar from '../Sidebar/Sidebar';
+import { useLocation } from 'react-router-dom';
 
 const ChatNav = () => {
     //State to hide text while typing
@@ -18,8 +19,13 @@ const ChatNav = () => {
 
         setIsInputEmpty(event.target.value === "")
     }
+
+    const location = useLocation();
+
+    // Contact should be hidden when on Mobile and path is not '/'
+    const shouldHideWhenMobile = location.pathname === '/';
     return (
-        <div className='chat-nav'>
+        <div className= {shouldHideWhenMobile ? 'chat-nav' : 'chat-nav mobile-hide'}>
             <div className='chat-search'>
                 <div className='chat-options'>
                     <h1>Chats</h1>

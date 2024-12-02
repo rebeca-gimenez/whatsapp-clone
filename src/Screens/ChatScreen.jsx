@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './ChatScreen.css'
 import ChatNav from '../Components/ChatNav/ChatNav'
 import Sidebar from '../Components/Sidebar/Sidebar'
 import Chat from '../Components/Chat/Chat'
 
 const ChatScreen = () => {
+
   return (
     <div className='screen' >
       <Sidebar/>

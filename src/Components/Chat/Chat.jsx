@@ -6,6 +6,7 @@ import MessageInput from '../MessageInput/MessageInput'
 import ChatHeader from '../ChatHeader/ChatHeader'
 import getTheirLastMessageHourString from '../../helpers/getTheirLastMessageHourString'
 import "./Chat.css"
+import { useLocation } from 'react-router-dom';
 
 const Chat = () => {
     const { contact_id } = useParams()
@@ -21,8 +22,13 @@ const Chat = () => {
         current_contact_last_hour = getTheirLastMessageHourString(current_contact.messagesList)
     }
     
+    const location = useLocation();
+
+    // Chat should be hidden when on Mobile and path is '/'
+    const shouldHideWhenMobile = location.pathname === '/';
+
     return (
-    <section className='chat'>
+    <section className= {shouldHideWhenMobile ? 'chat mobile-hide' : 'chat'}>
         {!current_contact
             ? (<ChatHeader 
                     contactName={"No hay contacto"}/>

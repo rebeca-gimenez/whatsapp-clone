@@ -27,17 +27,13 @@
     background-color: #D9DBDF;
 }
 
-
+/* Mobile nav bar CSS */
 .chat-nav .sidebar{
     display: none;
 }
 
 .mobile-show{
     display: none;
-}
-
-span.mobile-show{
-    font-size: var(--smallest-font-size);
 }
 
 @media screen and (max-width: 1000px) {
@@ -59,11 +55,19 @@ span.mobile-show{
         display: flex;
         flex-direction: row;
     }
+
     .mobile-hide{
         display: none;
     }
 
     .mobile-show{
         display: flex;
+        flex-direction: column;
+    }
+
+    .chat-nav .nav-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

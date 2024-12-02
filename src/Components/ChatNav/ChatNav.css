@@ -4,7 +4,6 @@
 
     background-color: var(--white);
     min-width: min(35vw, 460px);
-    width: 100%;
 }
 
 
@@ -121,6 +120,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .chat-nav{
+        min-width: 100%;
+    }
     .download-banner{
         display: none;
     }
