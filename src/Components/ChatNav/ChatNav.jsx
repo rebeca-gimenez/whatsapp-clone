@@ -6,6 +6,7 @@ import { RxMagnifyingGlass } from "react-icons/rx"
 import "./ChatNav.css"
 import ContactList from '../ContactList/ContactList';
 import { GoX } from "react-icons/go";
+import Sidebar from '../Sidebar/Sidebar';
 
 const ChatNav = () => {
     //State to hide text while typing
@@ -18,7 +19,7 @@ const ChatNav = () => {
         setIsInputEmpty(event.target.value === "")
     }
     return (
-        <nav className='chat-nav'>
+        <div className='chat-nav'>
             <div className='chat-search'>
                 <div className='chat-options'>
                     <h1>Chats</h1>
@@ -60,7 +61,8 @@ const ChatNav = () => {
                     <GoX className='medium-gray-font'/>
                 </button>
             </div>
-    </nav>
+            <Sidebar/>
+    </div>
     )
 }
 

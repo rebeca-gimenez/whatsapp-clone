@@ -15,7 +15,11 @@ const Chat = () => {
     const current_contact = getContactById(contact_id)
 
     //Get the last time they were 'active' || Encuentra la ultima vez que el usuario estuvo activo
-    const current_contact_last_hour = getTheirLastMessageHourString(current_contact.messagesList)
+    let current_contact_last_hour = ''
+    
+    if (current_contact) {
+        current_contact_last_hour = getTheirLastMessageHourString(current_contact.messagesList)
+    }
     
     return (
     <section className='chat'>

@@ -11,6 +11,7 @@ ul.contact-list {
     scrollbar-color: var(--light-gray-1) var(--white);
 }
 
+
 .contact-item {
     font-size: 1.2em;
     min-height: 80px;
@@ -31,6 +32,10 @@ ul.contact-list {
     gap: .7em;
 }
 
-.contact-item > a > .contact-box > .contact-info {
+.contact-item .contact-info {
     border-bottom: 1px solid var(--light-gray-1);
+}
+
+.contact-item .contact-info-text {
+    height: 72px;
 }

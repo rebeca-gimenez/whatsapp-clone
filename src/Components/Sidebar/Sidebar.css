@@ -9,7 +9,7 @@
     min-width: min(5vw, 70px);
 }
 
-.space-vertical-icons{
+.space-bar-icons{
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -18,7 +18,7 @@
     font-size: .8em;
 }
 
-.space-vertical-icons > .button-icon {
+.space-bar-icons > .button-icon {
     border-radius: 50%;
     padding: 7px;
 }
@@ -27,8 +27,43 @@
     background-color: #D9DBDF;
 }
 
+
+.chat-nav .sidebar{
+    display: none;
+}
+
+.mobile-show{
+    display: none;
+}
+
+span.mobile-show{
+    font-size: var(--smallest-font-size);
+}
+
 @media screen and (max-width: 1000px) {
     .sidebar{
         min-width: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+
+    .chat-nav .sidebar{
+        display: flex;
+    }
+
+    .chat-nav .sidebar > .top{
+        display: flex;
+        flex-direction: row;
+    }
+    .mobile-hide{
+        display: none;
+    }
+
+    .mobile-show{
+        display: flex;
     }
 }

@@ -48,9 +48,9 @@
     color: var(--gray-font-color);
     font-size: var(--small-font-size);
     max-height: 1.5em;
-    overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .contact-info-hour{
