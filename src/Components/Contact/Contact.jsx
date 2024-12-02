@@ -3,10 +3,11 @@ import { FaCircleUser } from "react-icons/fa6"
 import "./Contact.css"
 
 const Contact = ({contactAvatar, contactName, lastHour, bottomText}) => {
+
   return (
     <div className="contact-box">
         <div className='contact-avatar'>
-          {contactAvatar ? contactAvatar : <FaCircleUser className='contact-avatar-icon lightest-gray-font'/>}
+          {contactAvatar ? <img className='contact-picture' src={contactAvatar} alt={contactName + 'profile picture'} /> : <FaCircleUser className='contact-avatar-icon lightest-gray-font'/>}
         </div>
         <div className='contact-info'>
           <div className='contact-info-top'>

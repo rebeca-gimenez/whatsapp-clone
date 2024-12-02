@@ -4,8 +4,9 @@
     justify-content: space-between;
 
     padding: 0px 20px 0px 38px;
-    min-width: 220px;
+    min-width: min(17vw, 220px);
 }
+
 
 .video-dropdown{
     display: flex;
@@ -24,6 +25,17 @@
 .video-icon{
     font-size: 1.6em;
 }
+
 .arrow-down-icon{
     font-size: 0.7em;
+}
+
+.chat-header-box .contact-info{
+    width: min(100%,20vw);
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-icons{
+        padding-left: 0;
+    }
 }

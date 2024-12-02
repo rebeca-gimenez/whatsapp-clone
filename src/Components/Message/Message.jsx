@@ -6,7 +6,6 @@ import { BiCheck } from "react-icons/bi"
 import { LuClock } from "react-icons/lu"
 
 const Message = ({isSenderMe, isFirstMessage, text, hour, status}) => {
-
   return (
     <div className={ 
       'message-bubble' +
@@ -14,7 +13,9 @@ const Message = ({isSenderMe, isFirstMessage, text, hour, status}) => {
       ( isSenderMe ? ' sender-me' : '') }>
       { isFirstMessage && <GoTriangleDown className='first-message-icon'/>}
       <div className='message-content'>
-        <span className='text-message'>
+        <span className={
+          'text-message' +
+          ( text.length < 66 ? ' additional-padding' : '')}>
           {text}
         </span>
         <div className='text-data'>

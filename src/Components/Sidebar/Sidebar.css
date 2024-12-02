@@ -1,4 +1,4 @@
-.sidebar {
+.sidebar{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -6,6 +6,7 @@
 
     background-color: var(--light-gray-background);
     padding: 10px 0px;
+    min-width: min(5vw, 70px);
 }
 
 .space-vertical-icons{
@@ -24,4 +25,10 @@
 
 .current-screen{
     background-color: #D9DBDF;
+}
+
+@media screen and (max-width: 1000px) {
+    .sidebar{
+        min-width: 50px;
+    }
 }
