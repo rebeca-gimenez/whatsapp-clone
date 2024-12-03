@@ -56,6 +56,37 @@
 
 @media screen and (max-width: 768px) {
     .chat-header-box .go-back-arrow{
-        display: block;
+        display: flex;
+    }
+
+    .chat-header-box .contact-box{
+        padding-left: 0;
+    }
+
+    .chat-header-box .contact-info{
+        width: 100%;
+    }
+
+    .chat-header-box .contact-icons{
+        padding: 0;
+        min-width: 120px;
+    }
+
+    .chat-header-box .chat-icons{
+        gap: 10px
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .chat-header-box .contact-icons{
+        min-width: 100px;
+    }
+
+    .chat-header-box .chat-icons{
+        gap: 5px
+    }
+
+    .chat-header-box .contact-box{
+        width: calc(100vw - 134px);
     }
 }

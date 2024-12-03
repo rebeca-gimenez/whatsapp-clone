@@ -32,10 +32,6 @@
     display: none;
 }
 
-.mobile-show{
-    display: none;
-}
-
 @media screen and (max-width: 1000px) {
     .sidebar{
         min-width: 50px;
@@ -56,12 +52,11 @@
         flex-direction: row;
     }
 
-    .mobile-hide{
+    .space-bar-icons.mobile-hide{
         display: none;
     }
 
     .mobile-show{
-        display: flex;
         flex-direction: column;
     }
 

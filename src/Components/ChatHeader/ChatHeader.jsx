@@ -23,7 +23,7 @@ const ChatHeader = ({contactAvatar, contactName, contactLastHour}) => {
       <div className='contact-icons'>
         <button className='video-dropdown'>
           <FaVideo className='video-icon light-gray-font'/>
-          <IoIosArrowDown className='arrow-down-icon light-gray-font'/>
+          <IoIosArrowDown className='arrow-down-icon light-gray-font mobile-hide'/>
         </button>
         <div className='chat-icons'>
           <button className='button-icon'>

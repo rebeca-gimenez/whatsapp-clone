@@ -60,6 +60,10 @@
     
 }
 
+.mobile-show{
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .chat-icons{
         justify-content: flex-end;
@@ -67,5 +71,12 @@
     }
     .screen{
         min-height: 100vh;
+    }
+    .mobile-hide{
+        display: none;
+    }
+
+    .mobile-show{
+        display: flex;
     }
 }

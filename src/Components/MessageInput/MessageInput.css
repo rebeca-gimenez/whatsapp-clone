@@ -48,3 +48,18 @@ input:focus + .message-input-label{
 .send-icon{
     transform: rotate(43deg) scale(.9) translatex(-2px);
 }
+
+@media screen and (max-width: 380px) {
+    .message-input-label{
+        display: none;
+    }
+
+    .special-message-icons{
+        padding-left: 5px;
+        min-width: 80px;
+    }
+
+    .new-message-form{
+        padding-right: 5px;
+    }
+}
