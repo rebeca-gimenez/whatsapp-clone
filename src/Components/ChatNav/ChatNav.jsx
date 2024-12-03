@@ -51,7 +51,7 @@ const ChatNav = () => {
                     { isInputEmpty &&
                         <label htmlFor="search" className='message-input-label'>
                             <span>
-                                <FaRegCircle className='gradient'/>
+                                <FaRegCircle className='gradient mobile-show'/>
                                 <span className='mobile-show'>Ask Meta AI or</span>
                                 Search
                             </span>
