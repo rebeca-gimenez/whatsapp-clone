@@ -58,9 +58,3 @@
     font-size: var(--smallest-font-size);
     padding-top: .4em;
 }
-
-@media screen and (max-width: 380px) {
-    .contact-info-text{
-        display: none;
-    }
-}

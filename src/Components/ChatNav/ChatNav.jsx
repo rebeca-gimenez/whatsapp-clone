@@ -51,7 +51,7 @@ const ChatNav = () => {
                     { isInputEmpty &&
                         <label htmlFor="search" className='message-input-label'>
                             <span>
-                                <FaRegCircle className='gradient mobile-show'/>
+                                <FaRegCircle className='blue mobile-show'/>
                                 <span className='mobile-show'>Ask Meta AI or</span>
                                 Search
                             </span>
@@ -59,7 +59,7 @@ const ChatNav = () => {
                     }
                 </form>
                 <div className='chat-categories'>
-                    <span className='pill' id='green-pill'>All</span>
+                    <span className='pill green-pill'>All</span>
                     <span className='pill'>Unread</span>
                     <span className='pill'>Favorites</span>
                     <span className='pill'>Groups</span>

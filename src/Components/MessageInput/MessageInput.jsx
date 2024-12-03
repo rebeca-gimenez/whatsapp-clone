@@ -50,7 +50,7 @@ const MessageInput = ({contactID}) => {
                 <input type="text" id='message' name='message' onChange={handleInputTextChange}/>
                 { isInputEmpty &&
                     <label htmlFor="message" className='message-input-label'>
-                        Type a message
+                        <span className='mobile-hide'>Type a </span>Message
                     </label>
                 }
 

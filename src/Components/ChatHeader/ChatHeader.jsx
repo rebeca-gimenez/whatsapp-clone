@@ -7,6 +7,7 @@ import { IoIosArrowDown } from "react-icons/io"
 import './ChatHeader.css'
 import Contact from '../Contact/Contact'
 import { FaArrowLeft } from "react-icons/fa";
+import { MdOutlineCall } from "react-icons/md";
 
 const ChatHeader = ({contactAvatar, contactName, contactLastHour}) => {
   let contactStatus = `Last seen today at ${contactLastHour}`
@@ -27,7 +28,8 @@ const ChatHeader = ({contactAvatar, contactName, contactLastHour}) => {
         </button>
         <div className='chat-icons'>
           <button className='button-icon'>
-            <SlMagnifier className='medium-gray-font'/>
+            <SlMagnifier className='medium-gray-font mobile-hide'/>
+            <MdOutlineCall className='medium-gray-font mobile-show'/>
           </button>
           <button className='button-icon'>
             <BsThreeDotsVertical className='medium-gray-font'/>

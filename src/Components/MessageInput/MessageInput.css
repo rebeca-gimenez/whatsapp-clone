@@ -50,10 +50,6 @@ input:focus + .message-input-label{
 }
 
 @media screen and (max-width: 380px) {
-    .message-input-label{
-        display: none;
-    }
-
     .special-message-icons{
         padding-left: 5px;
         min-width: 80px;

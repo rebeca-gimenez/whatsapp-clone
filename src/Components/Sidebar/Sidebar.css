@@ -50,6 +50,11 @@
     .chat-nav .sidebar > .top{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        gap: 0px;
+
+        min-width: 70vw;
+        padding: 0px 20px;
     }
 
     .space-bar-icons.mobile-hide{
@@ -64,5 +69,37 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        min-width: 80px;
     }
+}
+
+
+@media screen and (max-width: 425px) {
+    .chat-nav .sidebar > .top{
+        min-width: 320px;
+        padding: 0px;
+    }
+
+    .chat-nav .sidebar{
+        background-color: var(--white);
+        font-weight: 600;
+    }
+
+    .button-icon.current-screen{
+        background-color: var(--light-green);
+        color: var(--dark-green-font-color);
+    }
+
+    .nav-button > .button-icon{
+        border-radius: 20px;
+        justify-content: center;
+        min-height: 30px;
+        min-width: 60px;
+        padding: 0;
+    }
+
+    .nav-button{
+        gap: 5px;
+    }
+
 }

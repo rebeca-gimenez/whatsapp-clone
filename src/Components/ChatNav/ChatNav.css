@@ -82,7 +82,7 @@
     background-color: var(--light-gray-1);
 }
 
-#green-pill{
+.green-pill{
     background-color: var(--light-green);
     color: var(--dark-green-font-color);
 }
@@ -113,13 +113,19 @@
     font-size: 1.1em;
 }
 
-.gradient{
+.blue{
     color: #0b69d6ff;
 }
 
 @media screen and (max-width: 1060px) {
     .chat-nav{
         min-width: 371px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .chat-nav{
+        min-width: 350px;
     }
 }
 
@@ -143,7 +149,7 @@
     }
 
     h1.mobile-show{
-        color: var(--dark-green-font-color);
+        color: var(--medium-green-font);
     }
 
     #search {
@@ -164,5 +170,23 @@
     .chat-categories{
         gap: 5px;
         padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .chat-categories{
+        gap: 3px;
+        min-height: 35px;
+    }
+    .pill{
+        padding-top: 4px;
+    }
+
+    .chat-nav .new-message-form{
+        padding-bottom: 15px;
+    }
+
+    .chat-search{
+        padding-bottom: 0;
     }
 }

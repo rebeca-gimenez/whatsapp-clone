@@ -39,3 +39,9 @@ ul.contact-list {
 .contact-item .contact-info-text {
     height: 72px;
 }
+
+@media screen and (max-width: 425px) {
+    .contact-item .contact-info {
+        border-bottom: none;
+    }
+}
