@@ -5,7 +5,7 @@
 
     background-color: var(--light-gray-background);
     
-    height: min(100vh,100dvh);
+    min-height: 100vh, 100dvh;
 }
 
 /* Font colors */
