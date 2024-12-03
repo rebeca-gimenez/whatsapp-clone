@@ -2,6 +2,8 @@
 .screen{
     display: flex;
     justify-content: left;
+
+    background-color: var(--light-gray-background);
     height: 100vh;
 }
 
@@ -55,4 +57,11 @@
     background-color: var(--whatsapp-green);
     color: var(--white);
     
+}
+
+@media screen and (max-width: 768px) {
+    .chat-icons{
+        justify-content: flex-end;
+        gap: 20px;
+    }
 }

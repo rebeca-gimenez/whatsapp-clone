@@ -7,6 +7,7 @@ import ChatHeader from '../ChatHeader/ChatHeader'
 import getTheirLastMessageHourString from '../../helpers/getTheirLastMessageHourString'
 import "./Chat.css"
 import { useLocation } from 'react-router-dom';
+import Home from '../Home/Home'
 
 const Chat = () => {
     const { contact_id } = useParams()
@@ -30,8 +31,7 @@ const Chat = () => {
     return (
     <section className= {shouldHideWhenMobile ? 'chat mobile-hide' : 'chat'}>
         {!current_contact
-            ? (<ChatHeader 
-                    contactName={"No hay contacto"}/>
+            ? (<Home/>
                 )
             : (<>
                 <ChatHeader 

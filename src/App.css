@@ -22,8 +22,6 @@ body {
     --smallest-font-size: 0.7em;
     --small-font-size: 0.8em;
     --medium-font-size: 1.1em;
-    background-image: url("./assets/whatsapp-screenshot-2.png");
-    background-size: 1535px;
 }
 
 *{
@@ -44,4 +42,9 @@ body {
 .screenshot img{
     background-color: #F0F2F5;
     width: 860px;
+}
+
+h3{
+    font-size: 1em;
+    font-weight: 400;
 }

@@ -8,6 +8,7 @@ import ContactList from '../ContactList/ContactList';
 import { GoX } from "react-icons/go";
 import Sidebar from '../Sidebar/Sidebar';
 import { useLocation } from 'react-router-dom';
+import { MdOutlineCameraAlt } from "react-icons/md";
 
 const ChatNav = () => {
     //State to hide text while typing
@@ -28,10 +29,12 @@ const ChatNav = () => {
         <div className= {shouldHideWhenMobile ? 'chat-nav' : 'chat-nav mobile-hide'}>
             <div className='chat-search'>
                 <div className='chat-options'>
-                    <h1>Chats</h1>
+                    <h1 className='mobile-hide'>Chats</h1>
+                    <h1 className='mobile-show'>WhatsApp</h1>
                     <span className='chat-icons'>
                         <button className='button-icon'>
-                            <BiCommentAdd className='medium-gray-font'/>
+                            <BiCommentAdd className='medium-gray-font mobile-hide'/>
+                            <MdOutlineCameraAlt className='medium-gray-font mobile-show' />
                         </button>
                         <button className='button-icon'>
                             <BsThreeDotsVertical className='medium-gray-font'/>

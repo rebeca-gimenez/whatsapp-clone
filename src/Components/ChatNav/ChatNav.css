@@ -126,4 +126,8 @@
     .download-banner{
         display: none;
     }
+
+    .chat-options{
+        padding: 10px;
+    }
 }

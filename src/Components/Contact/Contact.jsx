@@ -11,7 +11,7 @@ const Contact = ({contactAvatar, contactName, lastHour, bottomText}) => {
         </div>
         <div className='contact-info'>
           <div className='contact-info-top'>
-            <span className='contact-info-name'>{contactName}</span>
+            <h3 className='contact-info-name'>{contactName}</h3>
             {lastHour && <span className='contact-info-hour'>{lastHour}</span>}
           </div>
           <span className='contact-info-text'>{bottomText}</span>
