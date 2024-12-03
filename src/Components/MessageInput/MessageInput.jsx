@@ -41,7 +41,7 @@ const MessageInput = ({contactID}) => {
                 <span className='button-icon'>
                     <BiHappy className='medium-gray-font' />
                 </span>
-                <span className='button-icon'>
+                <span className='button-icon small-mobile-hide'>
                     <AiOutlinePlus className='dark-gray-font'/>
                 </span>
             </div>
@@ -55,10 +55,10 @@ const MessageInput = ({contactID}) => {
                 }
 
                 { isInputEmpty
-                    ? (<button type="button" className='button-icon'>
+                    ? (<button type="button" className='button-icon mobile-green-button'>
                         <BiSolidMicrophone className='medium-gray-font' />
                     </button>)
-                    : (<button type="submit" className='button-icon'>
+                    : (<button type="submit" className='button-icon mobile-green-button'>
                         <IoPaperPlaneSharp className='send-icon medium-gray-font'/>
                     </button>)
                 }

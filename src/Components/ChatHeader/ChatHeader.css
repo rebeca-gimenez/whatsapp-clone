@@ -82,17 +82,21 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .chat-header-box .contact-box{
         width: calc(100vw - 134px);
     }
-    .chat-header-box .contact-info-text{
-        display: none;
+    .chat-header-box{
+        background-color: var(--white);
     }
-
     .chat-header-box .contact-info{
         justify-content: center;
         padding-bottom: 10px;
     }
+}
 
+@media screen and (max-width: 380px) {
+    .chat-header-box .contact-info-text{
+        display: none;
+    }
 }

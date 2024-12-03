@@ -38,3 +38,10 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .chat-messages-box{
+        background-image: url('../../assets/background-mobile.png');
+        background-size: 100% auto;
+    }
+}

@@ -153,7 +153,8 @@
     }
 
     #search {
-        border-radius: 20px;
+        border-radius: 25px;
+        min-height: 45px;
     }
 
     .chat-search .message-input-label {
@@ -187,6 +188,10 @@
     }
 
     .chat-search{
-        padding-bottom: 0;
+        padding: 15px 0 0;
+    }
+
+    .chat-search .message-input-label {
+        transform: translate(0px,0px);
     }
 }

@@ -30,6 +30,7 @@
 
 input:focus {
     outline: none;
+    background-color: var(--white);
 }
 
 input:focus + .message-input-label{
@@ -49,13 +50,48 @@ input:focus + .message-input-label{
     transform: rotate(43deg) scale(.9) translatex(-2px);
 }
 
-@media screen and (max-width: 380px) {
-    .special-message-icons{
-        padding-left: 5px;
-        min-width: 80px;
+@media screen and (max-width: 425px) {
+    .small-mobile-hide{
+        display: none;
+    }
+
+    .chat-message-input-box{
+        background-image: url('../../assets/background-mobile.png');
+        background-size: 100% auto;
+        align-items: center;
+        padding: 0 10px;
     }
 
     .new-message-form{
-        padding-right: 5px;
+        padding: 0;
+        gap: 5px;
+    }
+
+    .special-message-icons{
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10px;
+        background-color: var(--white);
+        border-radius: 26px;
+        margin-right: -40px;
+        min-width: 80px;
+        min-height: 45px;
+    }
+
+    .new-message-form > input{
+        min-height: 45px;
+        border-radius: 26px;
+    }
+
+    .mobile-green-button{
+        background-color: var(--medium-green-font);
+        border-radius: 50%;
+        justify-content: center;
+        min-width: 42px;
+    }
+    .mobile-green-button > .medium-gray-font{
+        color: var(--white);
+        font-size: .8em;
     }
 }
+
