@@ -5,7 +5,7 @@
 
     background-color: var(--light-gray-background);
     
-    height: 100dvh;
+    height: 100vh;
 }
 
 /* Font colors */
@@ -64,5 +64,8 @@
     .chat-icons{
         justify-content: flex-end;
         gap: 20px;
+    }
+    .screen{
+        min-height: 100vh;
     }
 }
