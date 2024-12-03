@@ -1,5 +1,5 @@
 import React from 'react'
-import './message.css'
+import './Message.css'
 import { GoTriangleDown } from "react-icons/go"
 import { BiCheckDouble } from "react-icons/bi"
 import { BiCheck } from "react-icons/bi"
