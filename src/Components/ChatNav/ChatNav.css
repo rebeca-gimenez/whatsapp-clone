@@ -22,7 +22,7 @@
     align-items: center;
 
     min-height: 65px;
-    padding: 0px 25px 0px;
+    padding: 0px 25px;
 }
 
 .chat-options > h1 {
@@ -42,7 +42,7 @@
     
 }
 
-.chat-search > .new-message-form > .message-input-label {
+.chat-search .message-input-label {
     transform: translate(55px,-5px);
 }
 
@@ -113,6 +113,10 @@
     font-size: 1.1em;
 }
 
+.gradient{
+    color: #0b69d6ff;
+}
+
 @media screen and (max-width: 1060px) {
     .chat-nav{
         min-width: 371px;
@@ -128,6 +132,37 @@
     }
 
     .chat-options{
-        padding: 10px;
+        padding: 0 10px;
+        min-height: auto;
+    }
+
+    .chat-search{
+        gap: 3px;
+        padding: 8px 0;
+        min-height: auto;
+    }
+
+    h1.mobile-show{
+        color: var(--dark-green-font-color);
+    }
+
+    #search {
+        border-radius: 20px;
+    }
+
+    .chat-search .message-input-label {
+        transform: translate(0px,-5px);
+        width: 60vw;
+    }
+
+    .chat-search .message-input-label > span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .chat-categories{
+        gap: 5px;
+        padding-left: 10px;
     }
 }

@@ -9,6 +9,7 @@ import { GoX } from "react-icons/go";
 import Sidebar from '../Sidebar/Sidebar';
 import { useLocation } from 'react-router-dom';
 import { MdOutlineCameraAlt } from "react-icons/md";
+import { FaRegCircle } from "react-icons/fa6";
 
 const ChatNav = () => {
     //State to hide text while typing
@@ -43,13 +44,17 @@ const ChatNav = () => {
                     </span>
                 </div>
                 <form className='new-message-form'>
-                    <button className='search-button'>
-                        <RxMagnifyingGlass />
+                    <button className='search-button mobile-hide'>
+                        <RxMagnifyingGlass/>
                     </button>
                     <input type="text" id='search' name='search' />
                     { isInputEmpty &&
                         <label htmlFor="search" className='message-input-label'>
-                            Search
+                            <span>
+                                <FaRegCircle className='gradient'/>
+                                <span className='mobile-show'>Ask Meta AI or</span>
+                                Search
+                            </span>
                         </label>
                     }
                 </form>
