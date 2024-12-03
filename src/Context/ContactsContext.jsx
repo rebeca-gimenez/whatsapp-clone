@@ -1,6 +1,6 @@
 import { createContext, useState } from "react"
 import contacts from "../data/contactsData"
-import getNewMessageID from "../helpers/getNewMessageid"
+import getNewMessageID from "../helpers/getNewMessageID"
 import getFormattedHour from '../helpers/getFormattedHour'
 import getCurrentDateString from '../helpers/getCurrentDateString'
 import evaluateIfFirstMessage from '../helpers/evaluateIfFirstMessage'
