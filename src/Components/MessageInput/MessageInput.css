@@ -50,7 +50,7 @@ input:focus + .message-input-label{
     transform: rotate(43deg) scale(.9) translatex(-2px);
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
     .small-mobile-hide{
         display: none;
     }
