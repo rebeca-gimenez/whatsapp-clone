@@ -69,9 +69,7 @@
         justify-content: flex-end;
         gap: 20px;
     }
-    .screen{
-        min-height: 100vh;
-    }
+    
     .mobile-hide{
         display: none;
     }
